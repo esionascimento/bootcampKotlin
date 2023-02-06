@@ -78,13 +78,13 @@
 //  }
 //}
 // -- 17. Quiz: Hora de praticarmos
-fun main(args: Array<String>) {
-  val spices = listOf("curry", "pepper", "cayenne", "ginger", "red curry", "green curry", "red pepper" )
-  println(spices.filter { it.contains("curry")})
-  val start = 'c'
-  val end = 'e'
-  val filterStartEnd = spices.filter { it.startsWith(start) && it.endsWith(end) }
-  filterStartEnd.forEach(::println)
-  val threeElements = spices.take(3).filter { it.startsWith(start)}
-  println(threeElements)
-}
+//fun main(args: Array<String>) {
+//  val spices = listOf("curry", "pepper", "cayenne", "ginger", "red curry", "green curry", "red pepper" )
+//  println(spices.filter { it.contains("curry")})
+//  val start = 'c'
+//  val end = 'e'
+//  val filterStartEnd = spices.filter { it.startsWith(start) && it.endsWith(end) }
+//  filterStartEnd.forEach(::println)
+//  val threeElements = spices.take(3).filter { it.startsWith(start)}
+//  println(threeElements)
+//}
