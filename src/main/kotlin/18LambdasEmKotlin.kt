@@ -104,19 +104,19 @@ import java.util.*
 //  }
 //}
 // -- 19. Quiz
-fun main(args: Array<String>) {
-  gamePlay(12)
-}
-fun gamePlay(game: Int) {
-  val rollDice = { aux: Int ->
-    if (aux == 0) 0 else Random().nextInt(aux) + 1
-  }
-  println(rollDice(game))
-  val rollDice2: (Int) -> Int = { aux: Int ->
-    if (aux == 0) 0 else Random().nextInt(aux) + 1
-  }
-  println(rollDice2(game))
-}
+//fun main(args: Array<String>) {
+//  gamePlay(12)
+//}
+//fun gamePlay(game: Int) {
+//  val rollDice = { aux: Int ->
+//    if (aux == 0) 0 else Random().nextInt(aux) + 1
+//  }
+//  println(rollDice(game))
+//  val rollDice2: (Int) -> Int = { aux: Int ->
+//    if (aux == 0) 0 else Random().nextInt(aux) + 1
+//  }
+//  println(rollDice2(game))
+//}
 // -- Perguntas extras
 // -- 1. Por que você quer usar a notação de tipo de função em vez de usar apenas o lambda?
 // Melhor legibilidade do código, Verificação de tipos mais rigorosa, Maior flexibilidade na escrita do código
