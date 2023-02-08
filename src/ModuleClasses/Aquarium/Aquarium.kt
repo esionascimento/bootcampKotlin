@@ -1,4 +1,4 @@
-package Aquarium
+package ModuleClasses.Aquarium
 
 class Aquarium {
   var width: Int = 20

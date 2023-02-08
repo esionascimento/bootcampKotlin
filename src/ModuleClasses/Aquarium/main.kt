@@ -1,4 +1,4 @@
-package Aquarium
+package ModuleClasses.Aquarium
 
 fun main(args: Array<String>) {
   buildAquarium()
